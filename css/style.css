@@ -16,6 +16,7 @@ body{
 }
 
 
+
 /*HOME*/ 
 
 #navegador {
@@ -38,7 +39,7 @@ body{
    font-size: 23px;   
 }
 
- section {
+ #home {
    min-height: 100%;
    padding: 7rem 3% 1rem;
 }
@@ -64,6 +65,8 @@ body{
 .card-container{
    display: block;
    text-align: center;
+   margin-bottom: 80px;
+   margin-top: 80px;
 }
 
 .card-info{
@@ -85,9 +88,10 @@ body{
    color: white;
  }
 
-  /*CARTA*/
 
-  
+
+ /*CARTA*/
+
 .ravioles{
    display: inline;
    text-align: center;
@@ -144,7 +148,7 @@ body{
    display: block;
    width: 100%;
    height: 100%;
-   margin: 5px; /* Espacio entre las imágenes */
+   margin: 5px; 
  }
  
  .img-gallery{
@@ -160,17 +164,63 @@ body{
 
  /*CONTACTO*/
 
+ .contact-container {
+   max-width: 400px;
+   width: 100%;
+   margin: 65px auto; 
+   background-color: #fff;
+   border: 1px solid #ccc;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+   padding: 20px; 
+   box-sizing: border-box; 
+}
 
- 
- 
- 
- 
+.contact-form {
+   display: block; 
+}
+
+.contact-form h2 {
+   text-align: center;
+   margin-bottom: 20px; 
+}
+
+.form-group {
+   margin-bottom: 20px; 
+}
+
+.form-group label {
+   font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+   width: 100%;
+   padding: 10px; 
+   border: 1px solid #ccc; 
+   border-radius: 4px;
+   box-sizing: border-box; 
+}
+
+.form-group textarea {
+   resize: vertical;
+}
+
+button {
+   background-color: #007BFF;
+   color: #fff;
+   border: none;
+   padding: 10px 20px; 
+   border-radius: 4px;
+   cursor: pointer;
+}
+
+button:hover {
+   background-color: #0056b3;
+}
 
 
 
- 
-
- /*FOOTER*/
+/*FOOTER*/
 
  .footer {
    display: block;
@@ -203,9 +253,6 @@ body{
  }
  
 
-
- 
-
  /*ANIMACIONES*/
 
 @keyframes floatImage {
@@ -223,6 +270,7 @@ body{
 }
 
 
+/*BOTON WSP*/
 
  .whatsapp {
    position:fixed;
@@ -241,3 +289,12 @@ body{
 .whatsapp-icon {
    margin-top:13px;
 }
+
+.icon {
+   display: inline-block;
+   width: 1em;
+   height: 1em;
+   stroke-width: 0;
+   stroke: currentColor;
+   fill: currentColor;
+ }
