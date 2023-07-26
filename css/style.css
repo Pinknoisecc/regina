@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   border: none;
+   outline: none;
+   scroll-behavior: smooth;
+   font-family: 'Poppins', sans-serif;
+}
+
+body{
+   background-color: #1B2249;
+}
+
+
+/*HOME*/ 
+
+#navegador {
+   padding: 7px;
+   background-color: #151a31;
+}
+
+#navegador ul{
+    text-align: center;
+ }
+
+ #navegador li{
+    display: inline;
+    text-align: center;
+    margin: 0 10px 0 0;
+ }
+
+ #navegador li a{
+   color: rgb(255, 255, 255);
+   font-size: 23px;   
+}
+
+ section {
+   min-height: 100%;
+   padding: 7rem 3% 1rem;
+}
+
+.home {
+   justify-content: center;
+   align-items: center;
+}
+
+.home-molino {
+   margin-bottom: 50px;
+}
+
+.home-list{
+   display: inline;
+}
+
+.home-img{
+   width: 600px;
+   animation: floatImage 4s ease-in-out infinite;
+}
+
+.card-container{
+   display: block;
+   text-align: center;
+}
+
+.card-info{
+   width: 200px;
+   margin: 10px;
+   display: inline-block;
+   vertical-align: top;
+   text-align: center;
+}
+
+.card-info svg {
+   width: 200px;
+   height: 200px;
+   margin-bottom: 10px;
+ }
+
+.card-info p{
+   font-size: 30px;
+   color: white;
+ }
+
+  /*CARTA*/
+
+  
+.ravioles{
+   display: inline;
+   text-align: center;
+}
+
+.ravioles-img{
+   border: #151a31 15px solid;
+   width: 500px;
+   height: 580px;
+}
+
+
+/*HISTORIA*/
+
+.container{
+   text-align: center;
+   color: white;
+   padding-right: 40px;
+   padding-left: 40px;
+}
+
+.history{
+   min-height: 100%;
+   padding: 3rem 10% 4rem;
+}
+
+.h1-hist{
+   margin-bottom: 26px;
+}
+
+
+/*GALERIA*/
+
+.gallery {
+   text-align: center;
+   margin-top: 50px;
+ }
+ 
+ .image-container {
+   display: block;
+   width: 400px;
+   height: 400px;
+   margin: 5px; /* Espacio entre las imágenes */
+ }
+ 
+ .image-container img {
+
+   max-width: 100%;
+   max-height: 100%;
+ }
+ 
+ 
+ 
+
+
+
+ 
+
+ /*FOOTER*/
+
+ .footer {
+   display: block;
+   text-align: center;
+   padding: 2rem 9%;
+   background-color: #151a31;
+}
+
+.card-footer{
+   width: 200px;
+   display: inline-block;
+   vertical-align: top;
+   text-align: center;
+}
+
+.card-footer svg {
+   width: 40px;
+   height: 40px;
+   margin-bottom: 10px;
+ }
+
+.card-footer a{
+   font-size: 12px;
+   color: white;
+ }
+
+ .copyright{
+   font-size: 12px;
+   color: white;
+ }
+ 
+
+
+ 
+
+ /*ANIMACIONES*/
+
+@keyframes floatImage {
+   0% {
+       transform: translateY(0);
+   }
+
+   50% {
+       transform: translateY(-2.4rem);
+   }
+
+   100% {
+       transform: translateY(0);
+   }
+}
+
+
+
+ .whatsapp {
+   position:fixed;
+   width:60px;
+   height:60px;
+   bottom:40px;
+   right:40px;
+   background-color:#25d366;
+   color:#FFFF;
+   border-radius:50px;
+   text-align:center;
+   font-size:30px;
+   z-index:100;
+}
+
+.whatsapp-icon {
+   margin-top:13px;
+}
