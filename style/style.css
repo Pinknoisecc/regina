@@ -12,7 +12,7 @@
 }
 
 .fondoindex{
-    background-color: black;
+    background-color: #000000;
 }
 
 header {
@@ -50,7 +50,7 @@ nav{
     max-width: 450px; /* Máximo ancho de las imágenes */
     height: auto; /* Altura automática para mantener la proporción */
     margin-top: 50px; /* Distancia en la parte superior */
-    margin-bottom: 50px; /* Distancia en la parte inferior */
+    margin-bottom: 47px; /* Distancia en la parte inferior */
 }
 
 .carousel-thumbnail .carousel-item img {
@@ -65,6 +65,10 @@ nav{
     height: 100%;
 }
 
+.card{
+    border: none;
+}
+
 
 .card-info svg {
     width: 150px;
@@ -76,11 +80,15 @@ nav{
 
 .card-container{
     background-color: black;
+    border: none;
 }
-
 
 .card-info{
     background-color: black;
+}
+
+.card-3{
+    padding-bottom: 50px;
 }
 
 .card-info p{
