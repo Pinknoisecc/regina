@@ -60,9 +60,33 @@ nav{
     margin: auto; /* Centra horizontalmente */
 }
 
-.fettuccine-slide {
-    max-width: 100;
+#fettuccine-image {
+    width: 100%;
+    height: 100%;
 }
+
+
+.card-info svg {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+    background-color: black;
+  }
+
+
+.card-container{
+    background-color: black;
+}
+
+
+.card-info{
+    background-color: black;
+}
+
+.card-info p{
+    color: white;
+    background-color: black;
+  }
 
 .galeria{
     margin-top: 9%;
