@@ -14,33 +14,35 @@
 body {
     margin: 0;
     padding: 0;
-    max-width: 100%; /* Establece un ancho máximo para el cuerpo de la página */
-    overflow-x: hidden; /* Oculta la barra de desplazamiento horizontal si es necesario */
+    max-width: 100%; 
+    overflow-x: hidden;
 }
 
 body.carta {
     background-image: url('../img/fondobody.jpg');
-    background-size: cover; /* Escala la imagen para cubrir todo el fondo */
-    background-repeat: no-repeat; /* Evita la repetición de la imagen */
-    background-attachment: fixed; /* Fija la imagen de fondo */
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
 }
 
 
 body.galeria{
     background-color: white;
+    padding-top: 5%;
 }
+
 .fondoindex{
     background-color: #000000;
 }
 
 .navbar {
-    max-width: 100%; /* Establece un ancho máximo para la barra de navegación */
-    overflow-x: hidden; /* Oculta la barra de desplazamiento horizontal si es necesario */
+    max-width: 100%; 
+    overflow-x: hidden; 
 }
 
 
 header {
-    margin-top: 70px; /* La altura de tu barra de navegación + un valor adicional para separación */
+    margin-top: 70px; 
 }
 
 nav{
@@ -70,15 +72,20 @@ nav{
 
 
 .carousel-inner .carousel-item img {
-    max-width: 100%; /* Máximo ancho de las imágenes */
-    height: 450px; /* Altura automática para mantener la proporción */
-    margin-top: 50px; /* Distancia en la parte superior */
-    margin-bottom: 47px; /* Distancia en la parte inferior */
+    max-width: 100%; 
+    height: 450px; 
+    margin-top: 50px; 
+    margin-bottom: 47px; 
+}
+
+
+#carrusel-carta{
+    max-width: 100%
 }
 
 
 .card-info svg {
-    width: 150px;
+    width: 100%;
     height: 140px;
     margin-bottom: 10px;
     background-color: black;
@@ -86,8 +93,8 @@ nav{
 
 
 .card {
-    border: none; /* Elimina el borde de las tarjetas */
-    background-color: transparent; /* Fondo transparente */
+    border: none; 
+    background-color: transparent; 
     min-height: 100%;
 }
 
@@ -103,7 +110,7 @@ nav{
 }
 
 .card-container .card {
-    height: 100%; /* Asegura que todas las tarjetas tengan la misma altura */
+    height: 100%; 
 }
 
 .card-info{
@@ -124,32 +131,28 @@ nav{
 }
 
 .icono-card:hover {
-    transform: scale(1.2); /* Escala el icono al 120% del tamaño original */
-}
-
-.galeria{
-    margin-top: 9%;
+    transform: scale(1.2);
 }
 
 .gallery-item {
     text-align: center;
-    transition: transform 0.3s ease-in-out; /* Transición suave */
+    transition: transform 0.3s ease-in-out; 
 }
 
 .gallery-item:hover {
-    transform: scale(1.1); /* Zoom al 110% al pasar el puntero por encima */
+    transform: scale(1.1); 
 }
 
-/* Estilo personalizado para las imágenes en la galería */
+
 .gallery-item img {
     width: 100%;
     height: auto;
-    box-shadow: 4px 10px 10px rgb(17, 17, 17); /* Agregar sombra a las imágenes */
-    transition: transform 0.2s ease-in-out; /* Agregar transición suave */
+    box-shadow: 4px 10px 10px rgb(17, 17, 17); 
+    transition: transform 0.2s ease-in-out; 
 }
 
 .special-margin {
-    margin-bottom: 20px; /* Margen inferior adicional */
+    margin-bottom: 20px; 
 }
 
 
@@ -158,13 +161,101 @@ footer{
 }
 
 
-/* Cambiar el color de los íconos de Facebook e Instagram al pasar el puntero */
+
 .footer a:hover .fab.fa-facebook-f,
 .footer a:hover .fab.fa-instagram {
-    color: red; /* Cambia el color a rojo */
-    transition: color 0.2s ease-in-out; /* Agrega una transición suave */
+    color: red; 
+    transition: color 0.2s ease-in-out; 
 }
 
+
+/*MEDIAQUERY*/
+
+@media (max-width: 570px) {
+    .carousel-inner .carousel-item img {
+        height: 300px;
+    }
+}
+
+@media (maxn-width: 400px) {
+    #carrusel2 {
+        padding-top: 7%;
+        height: 400px;
+    }
+}
+
+@media (max-width: 576px) {
+    #carrusel2 {
+        padding-top: 7%;
+        height: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    #carrusel2 {
+        padding-top: 5%;
+        height: 500px;
+    }
+}
+
+@media (max-width: 992px) {
+    #carrusel2 {
+        padding-top: 7%;
+        height: 700px;
+    }
+}
+
+@media (max-width: 1200px) {
+    #carrusel2 {
+        padding-top: 7%;
+        height: 800px;
+    }
+}
+
+
+
+
+
+@media (max-width: 576px) {
+    .h2galeria {
+        padding-top: 7%;
+        padding-bottom: 3%;
+    }
+}
+
+@media (max-width: 768px) {
+    .h2galeria {
+        padding-top: 8%;
+        padding-bottom: 2%
+    }
+}
+
+@media (max-width: 992px) {
+    .h2galeria {
+        padding-top: 5%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .h2galeria {
+        padding-top: 50%;
+        padding-bottom: 3%;
+    }
+}
+
+@media (max-width: 1201px) {
+    .h2galeria {
+        padding-top: 7%;
+        padding-bottom: 3%;
+    }
+}
+
+@media (max-width: 1250px) {
+    .h2galeria {
+        padding-top: 7%;
+        padding-bottom: 3%;
+    }
+}
 
 
 
