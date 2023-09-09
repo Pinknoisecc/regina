@@ -372,17 +372,9 @@ footer{
 
 /*CARRUSEL INDEX*/
 
-@media (max-width: 300px) {
+@media (max-width: 378px) {
     .carousel-inner .carousel-item img {
-        max-height: 350px; 
-        margin-bottom: 20px; 
-        margin-top: 17px;
-    }
-}
-
-@media (max-width: 376px) {
-    .carousel-inner .carousel-item img {
-        height: 400px; 
+        height: 250px; 
         margin-bottom: 20px; 
         margin-top: 17px;
     }
