@@ -372,9 +372,26 @@ footer{
 
 /*CARRUSEL INDEX*/
 
+@media (max-width: 300px) {
+    .carousel-inner .carousel-item img {
+        max-height: 350px; 
+        margin-bottom: 20px; 
+        margin-top: 17px;
+    }
+}
+
+@media (max-width: 376px) {
+    .carousel-inner .carousel-item img {
+        height: 400px; 
+        margin-bottom: 20px; 
+        margin-top: 17px;
+    }
+}
+
+
 @media (max-width: 400px) {
-    .carousel-inner1 .carousel-item img {
-        max-height: 40vh; 
+    .carousel-inner .carousel-item img {
+        max-height: 32vh; 
         margin-bottom: 20px; 
         margin-top: 17px;
     }
