@@ -317,6 +317,7 @@ footer a:hover .fab.fa-instagram {
 @media (max-width: 378px) {
   .carousel-inner .carousel-item img {
     height: 100%;
+    width: 100%;
     margin-bottom: 20px;
     margin-top: 17px;
   }
