@@ -1,0 +1,58 @@
+/*CARTA*/
+.carousel-inner2 {
+    .carousel-item2 img {
+        max-width: $var1;
+        height: auto;
+        max-height: 97vh; 
+        width: auto; 
+        margin-bottom: 47px;
+    }
+}
+
+
+
+
+.card-info {
+    svg {
+        width: $var1;
+        height: 140px;
+        margin-bottom: 10px;
+        background-color: $colorfondo;
+    }
+}
+
+
+
+.card {
+    border: none; 
+    background-color: transparent; 
+    min-height: $var1;
+}
+
+.cards{
+    margin-right: 0px;
+}
+
+.card-container {
+    background-color: $colorfondo;
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    .card {
+        height: $var1; 
+    }
+}
+
+
+
+.card-info{
+    background-color: transparent;
+}
+
+.card-info {
+    p {
+        color: $texto;
+        background-color: $colorfondo;
+    }
+}

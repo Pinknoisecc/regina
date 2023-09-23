@@ -1,0 +1,31 @@
+.navbar {
+    max-width: $var1; 
+    overflow-x: hidden; 
+}
+
+
+nav{
+    background-color: $colorfondo;
+}
+
+.navbar-nav .nav-link {
+    color: $texto;
+}
+
+.nav-link{
+    color: $texto;
+}
+
+.nav-item:hover .nav-link {
+    color: $links; 
+}
+
+.navbar-toggler{
+    background-color: $links;
+}
+
+
+.navbar-toggler-icon{
+    color: $links;
+}
+

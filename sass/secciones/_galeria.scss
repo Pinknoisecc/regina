@@ -1,0 +1,29 @@
+/*GALERÍA*/
+
+
+.gallery-item {
+    text-align: center;
+    transition: transform 0.3s ease-in-out; 
+
+    &:hover {
+        transform: scale(1.1); 
+    }
+
+    img {
+        transition: transform 0.2s ease-in-out; 
+    }
+
+    .special-margin {
+        margin-bottom: 20px; 
+    }
+
+    .linkgaleria a {
+        color: $texto; 
+        text-decoration: none; 
+        transition: color 0.3s; 
+
+        &:hover {
+            color: $links;
+        }
+    }
+}

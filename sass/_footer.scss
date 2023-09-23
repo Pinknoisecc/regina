@@ -1,0 +1,11 @@
+footer {
+    background-color: $colorfondo;
+
+    a:hover {
+        .fab.fa-facebook-f,
+        .fab.fa-instagram {
+            color: $links;
+            transition: color 0.2s ease-in-out;
+        }
+    }
+}
