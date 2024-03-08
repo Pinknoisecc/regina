@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+    <title>Carta del Restaurante</title>
+</head>
+<body>
+    <div class="menu-container">
+        <div class="menu-categories">
+            <div class="menu-categories-dropdown" id="menuCategories">
+                <button onclick="filterCategory('entradas')">Entradas y ensaladas</button>
+                <button onclick="filterCategory('compartir')">Para compartir</button>
+                <button onclick="filterCategory('carnes')">Carnes y pescados</button>
+                <button onclick="filterCategory('pastas')">Pastas</button>
+                <button onclick="filterCategory('postres')">Postres</button>
+                <button onclick="filterCategory('cocteleria')">Coctelería</button>
+            </div>
+        </div>
+        <div class="menu-items" id="menu">
+            <!-- Aquí se mostrarán los productos -->
+        </div>
+    </div>
+    <script src="../js/scrip.js"></script>
+</body>
+</html>
