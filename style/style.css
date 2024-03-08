@@ -275,6 +275,14 @@ body.contacto {
     margin-top: 17px;
   }
 }
+@media (min-width: 378px) {
+  .carousel-inner .carousel-item img {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 17px;
+  }
+}
 @media (max-width: 400px) {
   .carousel-inner .carousel-item img {
     max-height: 32vh;
